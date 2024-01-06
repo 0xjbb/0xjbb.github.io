@@ -3,42 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Dark Theme Blog</title>
+    <title>PenTestPro - Coming Soon</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #282c35;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #subscribe {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        #email {
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        #subscribe-btn {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #61dafb;
+            color: #282c35;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #subscribe-btn:hover {
+            background-color: #4fa3d1;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Dark Theme Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <img id="logo" src="your_logo.png" alt="PenTestPro Logo">
+    <h1>PenTestPro</h1>
+    <p>Your gateway to secure systems.</p>
+    <p>We're working hard to bring you cutting-edge penetration testing tools and services.</p>
+    <p>Subscribe to stay updated!</p>
+    
+    <div id="subscribe">
+        <input type="email" id="email" placeholder="Enter your email">
+        <button id="subscribe-btn">Subscribe</button>
+    </div>
 
-    <main>
-        <article>
-            <h2>Post Title 1</h2>
-            <p class="meta">Published on January 6, 2024</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <a href="#">Read more</a>
-        </article>
-
-        <article>
-            <h2>Post Title 2</h2>
-            <p class="meta">Published on January 7, 2024</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-            <a href="#">Read more</a>
-        </article>
-
-        <!-- More articles can be added here -->
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Dark Theme Blog</p>
-    </footer>
+    <script>
+        // Add any additional scripting or functionality here
+    </script>
 </body>
 </html>
